@@ -52,7 +52,7 @@
   
   * {
     box-sizing: border-box;
-    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-color: transparent transparent; 
     scrollbar-width: 0px;
   }
   
@@ -225,4 +225,17 @@
   
   .carousel::after {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+  }
+
+  #carousel__slide1{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/CAZ6JXi6huSuN4QGE627NR.jpg") ;
+  }
+  #carousel__slide2{
+    background-image: url("https://wallpapers.com/images/hd/nature-landscape-go05oyj577mpbz7b-go05oyj577mpbz7b.jpg") ;
+  }
+  #carousel__slide3{
+    background-image: url("https://images.hdqwalls.com/download/sunrise-landscape-minimalism-5k-ex-1920x1080.jpg") ;
+  }
+  #carousel__slide4{
+    background-image: url("https://wallpaperaccess.com/full/656668.jpg") ;
   }

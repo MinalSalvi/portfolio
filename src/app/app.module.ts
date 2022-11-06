@@ -18,6 +18,11 @@ import { TableComponent } from './table/table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { GlowCardsComponent } from './glow-cards/glow-cards.component';
+import { TeachingsComponent } from './teachings/teachings.component';
+import { BioComponent } from './bio/bio.component';
+import { ReaserchComponent } from './reaserch/reaserch.component';
+import { VideoLecComponent } from './video-lec/video-lec.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +31,11 @@ import { MatSortModule } from '@angular/material/sort';
     ContentComponent,
     HomeComponent,
     TableComponent,
+    GlowCardsComponent,
+    TeachingsComponent,
+    BioComponent,
+    ReaserchComponent,
+    VideoLecComponent,
     
     
   ],
